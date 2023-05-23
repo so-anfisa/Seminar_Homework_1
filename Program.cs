@@ -14,7 +14,7 @@ else
 {
     max = number2 ;
 }
-Console.WriteLine($"Между чисел {number1} и {number2} большим является число {max}");
+Console.WriteLine($"Между чисел {number1} и {number2} большим является число {max}"); 
 
 // Задача 2: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
@@ -40,3 +40,14 @@ else {
 }
 
 Console.WriteLine($"Между чисел {number1}, {number2} и {number3} большим является число {max}");
+
+// Задача 3: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+Console.WriteLine("Введите число: ");
+ int number = int.Parse(Console.ReadLine()!); 
+
+ if (number % 2 == 0) {
+    Console.WriteLine($"Число {number} является чётным");
+ }
+ else 
+Console.WriteLine($"Число {number} является нечётным");
